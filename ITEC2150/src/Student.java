@@ -10,39 +10,12 @@ public class Student {
 		this.age = age;
 	}
 	
-	public void setFName(String fName) {
-	    if (fName != "") {
-	    	this.fName = fName;
-	    }
-	    else {
-	        this.fName = "";
-	    }
-	}
-	
 	public String getFName(){
 		return this.fName;
 	}
 	
-	public void setLName(String lName) {
-	    if (lName != "") {
-	    	this.lName = lName;
-	    }
-	    else {
-	        this.lName = "";
-	    }
-	}
-	
 	public String getLName(){
 		return this.lName;
-	}
-	
-	public void setAge(int age) {
-	    if (age > 0) {
-	    	this.age = age;
-	    }
-	    else {
-	        this.age = 0;
-	    }
 	}
 	
 	public int getAge(){
