@@ -14,7 +14,7 @@ public class LoopPractice {
 			if (newNum < 0) {
 				System.out.println("End test");
 				break;
-			}//
+			}
 		}
 		
 	}
