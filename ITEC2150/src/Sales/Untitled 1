@@ -1,0 +1,4 @@
+ProductSales, Sale, and DiscountSale take an item that you would like to purchase, provide you with a discount, then tell you about the
+effects of the discount. You are told whether or not the prices are equal, whether or not the discounted price was equal to the original
+price, whether or not the new price is greater than the original, and if it is less than the original. 
+Sale is a superclass, and DiscountSale is a subclass of Sale. ProductSales is used to run Sale.
