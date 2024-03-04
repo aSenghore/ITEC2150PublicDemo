@@ -1,0 +1,18 @@
+Sale creates name and price variables as well as a constructor, getters and setters.
+The no-arg constructor has "NOT YET CREATED" and  0.0. Sale has the methods, toString, totalPrice, 
+equals, equalDeals, greaterThan and lessThan. toString returns the name and price of a value in a 
+text format, totalPrice returns the price of an object. Equals determines if two objects have equal 
+values. It returns false if not, and true if they do. equalsDeals compares the sale object to the 
+normal to see if they are equal. greaterThan determines returns a boolean value of whether an object 
+is greater than the other. lessThan determines returns a boolean value of whether an object is less 
+than the other. 
+
+DiscountSale is a subclass of Sale with the new value DiscountRate. The no-arg constructor has a value
+of 0. DiscountSale has a constructor method, along with a getters and setters. The constructor super calls 
+dsObject. The setter throws the value if it is negative. There are 2 methods in DiscountSale, toString and totalPrice.
+toString returns the name and discount rate of an item, the original price, and the new total price. totalPrice 
+calculates the new price by subtracting the discount from the original price, then setting that as the newPrice. 
+
+ProductSales is a tester method for the Sales package. sales object s1 and discount object ds1 are 
+created using normal constructors. The tester is used to run each method from the superclass Sale 
+and its subclass DiscountSale.
