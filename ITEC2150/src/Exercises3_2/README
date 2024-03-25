@@ -1,0 +1,20 @@
+This program is used to simulate things that fly. The interface
+Flight cointains one void method fly.
+
+Airplane is a subclass of Flight, and has the private attributes
+String model and int yearBuilt, along with a constructor, getters
+and setters. It has a fly method that overrides the method from
+Flight, which describes how the airplane flies. It ends with a
+toString method to describe the model and year.
+
+Bird is a subclass of Flight, and has the private attribute String
+type, along with a constructor, getter and setter. It has a fly 
+method that overrides the method from Flight, which describes how 
+the bird flies. It ends with a toString method to describe the
+bird type.
+
+The main method ThingsThatFly is used to initialize the other
+methods in the Exercises3_2 package. It contains a flight object
+list, before creating a new Airplane and two Bird objects, adding 
+them to the list. There is a for loop that prints out the toString
+methods and the fly description.

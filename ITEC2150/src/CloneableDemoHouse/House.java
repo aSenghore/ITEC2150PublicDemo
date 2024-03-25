@@ -40,19 +40,20 @@ public class House implements Cloneable , Comparable<House>{
         House houseClone = new House(id, area);
         houseClone.whenbuilt = new Date();
 
+        //copy the elements of the Date() type object
         houseClone.whenbuilt.setTime(whenbuilt.getTime());
-
+        //how to plug this data to copy to the attribute of whenbuilt object
         return houseClone;
     }
 
     public Object clone() throws CloneNotSupportedException{
         House hc = (House)super.clone();
-
+        //shallow clone which will copy only built in type data
        hc.whenbuilt =  (Date)whenbuilt.clone();
 
        return hc;
     }
-
+ //complete the method header first
     public int compareTo(House o){
 
         //(1)

@@ -1,6 +1,6 @@
 package Exercises3_1;
 
-public class FarmAnimal {
+public abstract class FarmAnimal {
 	
 	private String name;
 	private String gender;

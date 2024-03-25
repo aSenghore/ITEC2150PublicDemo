@@ -1,0 +1,25 @@
+This program is used to simulate things that move. The interface
+Flight cointains one void method fly. Movement extends flight,
+adding the void methods jump and walk.
+
+Airplane is a subclass of Movement, and has the private attributes
+String model and int yearBuilt, along with a constructor, getters
+and setters. It has a fly method that overrides the method from
+Flight, which describes how the airplane flies. It also has a 
+walk and jump method, which override the ones from Movement. They
+describe how the plane "walks," and that it cannot jump. It ends 
+with a toString method to describe the model and year.
+
+Bird is a subclass of Flight, and has the private attribute String
+type, along with a constructor, getter and setter. It has a fly 
+method that overrides the method from Flight, which describes how 
+the bird flies. It also has a walk and jump method, which override 
+the ones from Movement. They describe how the bird walks, and that 
+how it jumps. It ends with a toString method to describe the
+bird type.
+
+The main method ThingsThatMove is used to initialize the other
+methods in the Exercises3_2 package. It contains a movement object
+list, before creating a new Airplane and two Bird objects, adding 
+them to the list. There is a for loop that prints out the toString,
+fly, walk, and jump methods.

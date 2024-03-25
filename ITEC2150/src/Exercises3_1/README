@@ -1,0 +1,18 @@
+This program is used to simulate a farm.
+
+The superclass FarmAnimal has the subclasses Chicken, Cow, and Duck.
+FarmAnimal has pricate attributes for name, gender, weight, and age.
+It also has a constructor method, along with getters and setters.
+FarmAnimal has a method feedLoadingSchedule(), which outputs the
+feeding schedule for animals. It ends with a toString method.
+
+Chicken, Cow, and Duck are subclasses of FarmAnimal. Each one has
+a private String sound, along with their own constructor, getter
+and setter. They all override the feedLoadingSchedule method, as 
+only the animal knows its own feeding schedule. They also have a
+toString.
+
+The main method MyFarm initializes the methods from FarmAnimal. It
+creates a list with all of the animals, then uses loops to print 
+out the animal sounds, animal identification, and the animal
+feeding schedules.
